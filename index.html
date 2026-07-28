@@ -36,17 +36,17 @@
 				<label for="name">Full Name:
 					<span aria-hidden="true" class="required">*</span>
 				</label>
-				<input type="text" id="name" autocomplete="name" aria-describedby="required-description" name="fullName">
+				<input type="text" id="name" autocomplete="name" aria-describedby="required-description" name="fullName" required>
 
 				<label for="emailAddress">Email:
 					<span aria-hidden="true" class="required">*</span>
 				</label>
-				<input type="email" id="emailAddress" autocomplete="email" aria-describedby="required-description" name="emailAddress">
+				<input type="email" id="emailAddress" autocomplete="email" aria-describedby="required-description" name="emailAddress" required>
 
 				<label for="phoneNumber">Phone Number:
 					<span aria-hidden="true" class="required">*</span>
 				</label>
-				<input type="tel" id="phoneNumber" autocomplete="tel" aria-describedby="required-description" name="phoneNumber">
+				<input type="tel" id="phoneNumber" autocomplete="tel" aria-describedby="required-description" name="phoneNumber" required>
 				
 				<fieldset>
 					<legend>Preferred Contact Method: <span aria-hidden="true" class="required">*</span></legend>
@@ -62,13 +62,13 @@
 				<label for="message">Message:
 					<span aria-hidden="true" class="required">*</span>
 				</label>
-				<textarea id="message" aria-describedby="required-description" name="message"></textarea>
+				<textarea id="message" aria-describedby="required-description" name="message" required></textarea>
 
 				<label for="stateSelect">State:
 					<span aria-hidden="true" class="required">*</span>
 				</label>
 
-				<select id="stateSelect" name="state">
+				<select id="stateSelect" name="state" aria-describedby="required-description" required>
 					<option value="Alabama">Alabama</option>
 					<option value="Alaska">Alaska</option>
 					<option value="Arizona">Arizona</option>
