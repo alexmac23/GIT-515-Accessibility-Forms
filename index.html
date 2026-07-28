@@ -53,10 +53,10 @@
 					
 
 					<label for="phoneContact"> Phone</label>
-					<input type="radio" id="phoneContact" name="contactPreference" value="phoneContact">
+					<input type="radio" id="phoneContact" name="contactPreference" value="phoneContact" required>
 
 					<label for="emailContact"> Email</label>
-					<input type="radio" id="emailContact" name="contactPreference" value="emailContact">					
+					<input type="radio" id="emailContact" name="contactPreference" value="emailContact" required>					
 				</fieldset>
 
 				<label for="message">Message:
@@ -68,7 +68,7 @@
 					<span aria-hidden="true" class="required">*</span>
 				</label>
 
-				<select id="stateSelect" name="state" aria-describedby="required-description" required>
+				<select id="stateSelect" name="state" aria-describedby="required-description" required placeholder="Select a State">
 					<option value="Alabama">Alabama</option>
 					<option value="Alaska">Alaska</option>
 					<option value="Arizona">Arizona</option>
